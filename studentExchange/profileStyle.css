@@ -1,0 +1,81 @@
+.card {
+    margin-top:1px;
+    margin-left:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    position:static;
+    float:left;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+#profileContent
+{
+    padding: 20px 10px 20px 10px; /*top right bottom left*/
+	margin-top: 1%;
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: white;
+	height: 900px;
+	scroll-behavior: smooth; 
+}
+
+
+h1{
+    text-align:center;
+}
+div.gallery {
+
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.addbtn{
+
+    position:relative;
+    bottom:5%;
+    color:#e5d716;
+    background-color:#404855;
+    border-style:solid;
+    border-color:black;
+    border-width:1px;
+   
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="template.css">
+	<link rel="icon" type="image/png" href="Pictures/icon4.png"/>
+</head>
+<body>
+	<div id="headerbox"><img src="Pictures/logo1.png" alt="student exchange logo" height="100" >
+	The Student Exchange
+	</div> <!-- /#headerbox -->
+	<nav class="topNav">
+		<ul>
+			<li><a href="homepage.html"> HOME</a></li>
+			<li><a href="category.html"> BROWSE CATALOG</a></li>
+			<li><a href="profile.html"> VIEW PROFILE</a></li>
+			<li><a href="contact.html"> CONTACT US</a></li>		
+			<li><a href="additem.html"> ADD NEW ITEM</a></li>
+			<li><a  style="color: white;" href="signup.html"> SIGN UP</a></li>
+			<li><a href="login.html"> LOGIN</a></li>
+		</ul>
+	</nav>
+
+	<div id="signupContent">	
+		<h1>Get started today with a free student account</h1>
+		<p>Create a free Student Exchange acount in order to purchase whatever you like in order to help you succeed in school, or sell items that helped you to someone who needs it now.</p> Already signed up? <a href="login.html">Login here.</a>
+		<form>
+			<div class="column">
+		   	<p>
+		        <label for="fname">FIRST NAME: </label><br>
+		         <input type = "text" id = "fname" name = "fname" class="signinput" />
+		    </p>			
+		   	<p>
+		        <label for="lname">LAST NAME: </label><br>
+		         <input type = "text" id = "lname" name = "lname" class="signinput" />
+		    </p>		    
+		   	<p>
+		        <label for="email">EMAIL: </label><br>
+		         <input type = "text" id = "email" name = "email" class="signinput" />
+		    </p></div>
+		    <div class="column">
+		   	<p>
+		        <label for="emailconf">CONFIRM EMAIL: </label><br>		    
+		         <input type = "text" id = "emailconf" name = "emailconf" class="signinput" />
+		    </p>		    
+		    <p>
+		        <label for="pass">PASSWORD: </label><br>
+		        <input type = "password" id = "pass" name = "pass" class="signinput" />
+		    </p> 
+		    <p>
+		        <label for="passconf">CONFIRM PASSWORD: </label><br>
+		        <input type = "password" id = "passconf" name = "passconf" class="signinput" />
+		    </p> </div>		
+		    <div class="column"> 
+		    <img src="Pictures/icon2.png" width="120" alt="logo of user adding" >     
+		    <p>
+		        <input type = "submit" id = "btn" value = "SIGN ME UP" class="signbtn" />
+		     </p></div>   
+		</form>
+	</div> <!-- /#pageContent -->
+</body>
+</html>
